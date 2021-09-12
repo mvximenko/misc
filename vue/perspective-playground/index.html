@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -15,13 +15,13 @@
           <label>perspective: {{ perspective }}px;</label>
           <input type="range" min="0" max="999" v-model="perspective" />
 
-          <label>rotateX: {{ rotateX }}deg; </label>
+          <label>rotateX: {{ rotateX }}deg;</label>
           <input type="range" min="-180" max="180" v-model="rotateX" />
 
-          <label>rotateY: {{ rotateY }}deg; </label>
+          <label>rotateY: {{ rotateY }}deg;</label>
           <input type="range" min="-180" max="180" v-model="rotateY" />
 
-          <label>rotateZ: {{ rotateZ }}deg; </label>
+          <label>rotateZ: {{ rotateZ }}deg;</label>
           <input type="range" min="-180" max="180" v-model="rotateZ" />
 
           <button type="button" @click.prevent="reset">Reset</button>
@@ -34,7 +34,6 @@
         </div>
       </section>
     </main>
-
   </div>
 
   <css-doodle>

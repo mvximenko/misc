@@ -17,9 +17,9 @@ body {
   margin: 0;
   background: #261c33;
   overflow: hidden;
-  display: flex; 
-  align-items: center; 
-  justify-content: center 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
@@ -38,10 +38,10 @@ main {
   font-family: monospace, sans-serif;
   font-size: 22px;
 }
-main label{
+main label {
   display: block;
 }
-main input[type="range"] {
+main input[type='range'] {
   display: block;
   margin-bottom: 10px;
   width: 200px;
@@ -71,6 +71,6 @@ button {
   margin-right: 10px;
 }
 
-label{
+label {
   color: #fff;
 }
