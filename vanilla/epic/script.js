@@ -16,17 +16,18 @@ const data = [
 const API_IMG = 'https://cdn.akamai.steamstatic.com/steam/apps';
 const API_STORE = 'https://store.steampowered.com/app';
 
+const title = document.getElementById('title');
+title.innerHTML = `Epic Library ${data.length}`;
+
 const items = document.getElementById('items');
 
 data.forEach((item) => {
   items.innerHTML += `
-    <div class="item">
-      <a href="${API_STORE}/${item}">
+    <div class="item card">
+      <a class="link" href="${API_STORE}/${item}">
         <img
           alt="${item}"
           loading="lazy"
-          width="460"
-          height="215"
           src="${API_IMG}/${item}/header.jpg"
         >
       </a>
