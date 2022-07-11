@@ -1,0 +1,7 @@
+.content-section p:first-of-type::first-letter {
+    color: #f3f3f3;
+    float: left;
+    font-size: 4rem;
+    line-height: 4vw;
+    padding-right: 8px;
+}
